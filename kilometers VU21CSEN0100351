@@ -1,0 +1,24 @@
+/******************************************************************************
+
+Welcome to GDB Online.
+GDB online is an online compiler and debugger tool for C, C++, Python, Java, PHP, Ruby, Perl,
+C#, VB, Swift, Pascal, Fortran, Haskell, Objective-C, Assembly, HTML, CSS, JS, SQLite, Prolog.
+Code, Compile, Run and Debug online from anywhere in world.
+
+*******************************************************************************/
+#include <stdio.h>
+
+int main()
+{
+    int a;
+    int b=1000;
+    float c;
+    printf("enter the no of kilometers");
+    scanf( "%d",&a);
+    printf("one kilometer in meters");
+    c=a*b;
+    printf("distance %f",c);
+      return 0;
+}
+
+
