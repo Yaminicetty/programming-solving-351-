@@ -1,0 +1,58 @@
+#include<stdio.h>
+void getsum();
+void getsub();
+void getmult();
+void getdiv();
+void main()
+{
+    int ch;
+    printf("enter choice");
+    scanf("%d",&ch);
+    switch(ch)
+    {
+        case 1:
+        getsum();
+        break;
+        case 2:
+        getsub();
+        break;
+        case 3:
+        getmult();
+        break;
+        case 4:
+        getdiv();
+        break;
+    }
+}
+void getsum()
+{
+    int a,b,sum;
+    printf("enter a,b");
+    scanf("%d%d",&a,&b);
+    sum=a+b;
+    printf("sum is %d",sum);
+}
+void getsub()
+{
+    int a,b,sub;
+    printf("enter a,b");
+    scanf("%d%d",&a,&b);
+    sub=a-b;
+    printf("sub is %d",sub);
+}
+void getmult()
+{
+    int a,b,mult;
+    printf("enter a,b");
+    scanf("%d%d",&a,&b);
+    mult=a*b;
+    printf("mult is %d",mult);
+}
+void getdiv()
+{
+    int a,b,div;
+    printf("enter a,b");
+    scanf("%d%d",&a,&b);
+    div=a/b;
+    printf("div is %d",div);
+}
